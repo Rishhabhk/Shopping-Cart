@@ -5,13 +5,15 @@
     /* justify-content: center; */
     width: 250px;
     padding: 20px 10px;
+
     border: 1px solid black;
+
     border-radius: 10px;
     transition:0.3s ease-in-out;
 
 }
 .card:hover{
-    scale: 1.1;
+    scale: 1.05;
 }
 
 .desc{
