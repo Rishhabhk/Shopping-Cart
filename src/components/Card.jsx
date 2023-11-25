@@ -12,7 +12,7 @@ const Card = ({product}) => {
     const dispatch = useDispatch();
     const addToCart = () => {
       dispatch(add(product));
-      toast.error("Item added");
+      toast.success("Item added");
     }
 
     const removeFromCart= () => {
